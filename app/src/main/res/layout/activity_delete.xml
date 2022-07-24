@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greycurves"
+    tools:context=".DeleteActivity">
+
+    <EditText
+        android:id="@+id/platform_delete"
+        android:layout_width="349dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/password_delete"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/curvedinput"
+        android:drawableStart="@drawable/ic_baseline_web_24"
+        android:drawablePadding="10dp"
+        android:hint="Platform"
+        android:maxLength="23"
+        android:paddingStart="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="26sp"
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/password_delete"
+        android:layout_width="349dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/username_delete"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/curvedinput"
+        android:paddingStart="10dp"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="10dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:maxLength="23"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="26sp"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/mainText"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="29dp"
+        android:text="Delete"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="48sp"
+        android:textStyle="normal|bold" />
+
+    <EditText
+        android:id="@+id/username_delete"
+        android:layout_width="349dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/mainText"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/curvedinput"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:drawablePadding="10dp"
+        android:hint="User Name"
+        android:maxLength="32"
+        android:paddingStart="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="26sp"
+        tools:ignore="RtlSymmetry" />
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="150dp"
+        android:layout_height="59dp"
+        android:layout_below="@+id/platform_delete"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/curved_butts_my_grey"
+        android:text="Delete"
+        android:textColor="@color/white"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/buttonExit_delete"
+        android:layout_width="150dp"
+        android:layout_height="59dp"
+        android:layout_below="@+id/platform_delete"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/curved_butts_my_grey"
+        android:text="@string/exit"
+        android:textColor="@color/white"
+        android:textSize="34sp" />
+
+</RelativeLayout>
